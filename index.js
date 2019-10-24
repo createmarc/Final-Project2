@@ -48,4 +48,31 @@ $(function(){ //Document.ready() shorthand
 	});
 
 
+
+
+});
+
+
+})
+$("#myCarousel").carousel();
+
+  // Enable Carousel Indicators
+  $(".Shel1").click(function(){
+    $("#myCarousel").carousel(0);
+  });
+  $(".Shel2").click(function(){
+    $("#myCarousel").carousel(1);
+  });
+  $(".Shel3").click(function(){
+    $("#myCarousel").carousel(2);
+  });
+
+  // Enable Carousel Controls
+  $(".carousel-control-prev").click(function(){
+    $("#myCarousel").carousel("prev");
+  });
+  $(".carousel-control-next").click(function(){
+    $("#myCarousel").carousel("next");
+  });
+});
 });
